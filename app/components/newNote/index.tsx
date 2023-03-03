@@ -1,6 +1,6 @@
-import { Form, useActionData, useNavigation } from "@remix-run/react";
+import { Form, useActionData, useNavigation } from "@remix-run/react"
 
-import styles from "./newNote.css";
+import styles from "./newNote.css"
 
 export default function NewNote() {
   const data = useActionData()
@@ -24,9 +24,9 @@ export default function NewNote() {
         </button>
       </div>
     </Form>
-  );
+  )
 }
 
 export function links() {
-  return [{ rel: 'stylesheet', href: styles }];
+  return [{ rel: 'stylesheet', href: styles }]
 }

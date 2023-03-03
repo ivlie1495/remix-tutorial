@@ -1,4 +1,4 @@
-import { NavLink } from "@remix-run/react";
+import { NavLink } from "@remix-run/react"
 
 export default function MainNavigation() {
   return (
@@ -12,5 +12,5 @@ export default function MainNavigation() {
         </li>
       </ul>
     </nav>
-  );
+  )
 }
